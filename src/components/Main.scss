@@ -1,6 +1,7 @@
 @import '../scss/mixins.scss';
 .main{
     @include block(auto);
+    justify-content: center;
     &__container{
         @include container();
         flex-direction: column;

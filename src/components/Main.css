@@ -2,11 +2,11 @@
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: center;
   border: 1px solid #000;
+  justify-content: center;
 }
 .main__container {
-  width: 1180px;
+  width: 1110px;
   height: 100%;
   display: flex;
   padding: 0 20px 0 20px;
