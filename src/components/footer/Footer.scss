@@ -3,6 +3,7 @@
     @include block(175px);
     align-items: center;
     justify-content: space-between;
+    border-top: 2px solid #777;
     img{
         width: 105px;
         &:nth-child(1){

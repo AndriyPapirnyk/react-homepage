@@ -3,13 +3,11 @@
     height: 100%;
     display: flex;
     padding: 0 20px 0 20px;
-    border: 1px solid #000;;
 }
 @mixin block($height) {
     width: 100%;
     height: $height;
     display: flex;
-    border: 1px solid #000;
 }
 @mixin text($fontSize, $color, $fontWeight, $lineHeight) {
     font-size: $fontSize;
