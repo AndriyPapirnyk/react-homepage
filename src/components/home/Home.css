@@ -3,4 +3,62 @@
   height: 560px;
   display: flex;
   border: 1px solid #000;
+  align-items: center;
+  position: relative;
+}
+.home__main {
+  position: absolute;
+  width: 560px;
+  right: 0;
+  bottom: 0;
+}
+.home__text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.home__text h1 {
+  font-size: 45px;
+  color: #353534;
+  font-weight: 400;
+  line-height: 55px;
+}
+.home__text h1 span {
+  color: #FF5C00;
+}
+.home__text p {
+  font-size: 14px;
+  color: #A8A8A8;
+  font-weight: 400;
+  line-height: 24px;
+}
+.home__text div {
+  display: flex;
+  gap: 35px;
+}
+.home__text div button {
+  width: 150px;
+  height: 45px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  background: #544CAC;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  border: none;
+}
+.home__text div button:nth-child(2) {
+  width: 170px;
+  background-color: unset;
+  box-shadow: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home__text div button:nth-child(2) p {
+  font-size: 16px;
+  color: #000;
+}
+.home__text div button:nth-child(2) img {
+  width: 45px;
 }

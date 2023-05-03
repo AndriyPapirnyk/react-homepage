@@ -1,4 +1,24 @@
 @import 'src/scss/mixins.scss';
 .footer{
     @include block(175px);
+    align-items: center;
+    justify-content: space-between;
+    img{
+        width: 105px;
+        &:nth-child(1){
+            width: 60px;
+        }
+        &:nth-child(2){
+            width: 126px;
+        }
+        &:nth-child(3){
+            width: 150px;
+        }
+        &:nth-child(4){
+            width: 120px;
+        }
+        &:nth-child(5){
+            width: 110px;
+        }
+    }
 }

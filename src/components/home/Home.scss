@@ -1,4 +1,56 @@
 @import 'src/scss/mixins.scss';
 .home{
-    @include block(560px)
+    @include block(560px);
+    align-items: center;
+    position: relative;
+    &__main{
+        position: absolute;
+        width: 560px;
+        right: 0;
+        bottom: 0;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h1{
+            @include text(45px, #353534, 400, 55px);
+            span{
+                color: #FF5C00;
+            }
+        }
+        p{
+            @include text(14px, #A8A8A8, 400, 24px);
+        }
+        div{
+            display: flex;
+            gap: 35px;
+            button{
+                width: 150px;
+                height: 45px;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 400;
+                background: #544CAC;
+                box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+                border-radius: 6px;
+                border: none;
+                &:nth-child(2){
+                    width: 170px;
+                    background-color: unset;
+                    box-shadow: none;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    p{
+                        font-size: 16px;
+                        color: #000;
+                    }
+                    img{
+                        width: 45px;
+                    }
+                }
+            }
+        }
+    }
 }

@@ -11,10 +11,9 @@
     display: flex;
     border: 1px solid #000;
 }
-@mixin text($fontSize, $color, $fontWeight, $fontFamily, $lineHeight) {
+@mixin text($fontSize, $color, $fontWeight, $lineHeight) {
     font-size: $fontSize;
     color: $color;
     font-weight: $fontWeight;
-    font-family: $fontFamily;
     line-height: $lineHeight;
 }
