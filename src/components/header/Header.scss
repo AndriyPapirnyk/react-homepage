@@ -1,4 +1,42 @@
 @import 'src/scss/mixins.scss';
 .header{
     @include block(90px);
+    justify-content: space-between;
+    align-items: center;
+    &__logo{
+        width: 105px;
+    }
+    ul{
+        gap: 32px;
+        li{
+            font-size: 14px;
+        }
+    }
+    &__input{
+        width: 300px;
+        height: 35px;
+        background: #FFFFFF;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;  
+        padding: 0 5px 0 20px;      
+        input{
+            border: none;
+            background-color: unset;
+            outline: none;
+        }
+        button{
+            width: 28px;
+            height: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: none;
+            img{
+                width: 28px;
+            }
+        }
+    }
 }

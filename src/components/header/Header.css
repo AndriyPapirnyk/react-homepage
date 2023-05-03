@@ -3,4 +3,42 @@
   height: 90px;
   display: flex;
   border: 1px solid #000;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 105px;
+}
+.header ul {
+  gap: 32px;
+}
+.header ul li {
+  font-size: 14px;
+}
+.header__input {
+  width: 300px;
+  height: 35px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px 0 20px;
+}
+.header__input input {
+  border: none;
+  background-color: unset;
+  outline: none;
+}
+.header__input button {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+}
+.header__input button img {
+  width: 28px;
 }
