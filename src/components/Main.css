@@ -1,0 +1,15 @@
+.main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000;
+}
+.main__container {
+  width: 1180px;
+  height: 100%;
+  display: flex;
+  padding: 0 20px 0 20px;
+  border: 1px solid #000;
+  flex-direction: column;
+}

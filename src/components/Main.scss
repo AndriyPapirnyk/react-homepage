@@ -1,0 +1,8 @@
+@import '../scss/mixins.scss';
+.main{
+    @include block(auto);
+    &__container{
+        @include container();
+        flex-direction: column;
+    }
+}

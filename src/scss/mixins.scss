@@ -1,0 +1,21 @@
+@mixin container() {
+    width: 1180px;
+    height: 100%;
+    display: flex;
+    padding: 0 20px 0 20px;
+    border: 1px solid #000;;
+}
+@mixin block($height) {
+    width: 100%;
+    height: $height;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #000;
+}
+@mixin text($fontSize, $color, $fontWeight, $fontFamily, $lineHeight) {
+    font-size: $fontSize;
+    color: $color;
+    font-weight: $fontWeight;
+    font-family: $fontFamily;
+    line-height: $lineHeight;
+}

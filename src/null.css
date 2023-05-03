@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {box-sizing: border-box; font-family: 'Mulish';color: #000;}
+
+ul{list-style: none;display: flex;}
+
+ol{padding: 0;}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li{margin: 0; padding: 0;}
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; }
+ul,
+ol{list-style: none;}
+a{text-decoration:none}
+img {display: block;}
+input,
+button,
+textarea,
+select {font: inherit; }
